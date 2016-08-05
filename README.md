@@ -79,7 +79,7 @@ We invoke `expect()` with the object which we want to test like `name` or `url`.
     expect(name).to.equal('React Quickly')
 ```
 
-`expect` actually calls your functions and tests your variables by using a matcher like `to.be.a`. Then `expect` compares the actual value (`name`) to the expected value (`string`) passed to the matcher.
+`expect` actually calls your functions and tests your variables by using a matcher like `to.be.a`. Then `expect` compares the actual value (`name`) to the value expected value (`string`) passed to the matcher.
 
 The `to.have` checks for properties with `length` being a property of an array:
 
@@ -131,7 +131,7 @@ There are two ways to run Mocha tests: local and global. We'll cover the local b
 node_modules/mocha/bin/mocha test.js
 ```
 
-You should see this output which mean that test was run successfully:
+You should see this output which means that test was run successfully:
 
 ```
   name and url
